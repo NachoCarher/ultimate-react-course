@@ -25,7 +25,7 @@ export default function App() {
       <div className="sidebar">
         <FriendsList />
         <FormAddFriend />
-        <Button>Add fruend</Button>
+        <Button>Add friend</Button>
       </div>
 
       <FormSplitBill />
@@ -69,7 +69,7 @@ function Friend({ friend }) {
 }
 
 function Button({ children }) {
-  return <Button className="button">{children}</Button>;
+  return <button className="button">{children}</button>;
 }
 
 function FormAddFriend() {
