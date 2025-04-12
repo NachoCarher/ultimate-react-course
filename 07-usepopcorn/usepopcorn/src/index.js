@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import StarRating from "./StarRating";
+import App from "./App";
 
 function Test() {
   const [rat, setRat] = useState(0);
